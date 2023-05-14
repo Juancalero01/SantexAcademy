@@ -1,0 +1,68 @@
+:root {
+  --twp-color1: #ffffff;
+  --twp-color2: #f9f9fb;
+  --twp-color3: #d9d9d9;
+  --twp-color4: #9e23ff;
+  --twp-color5: #6b53f0;
+  --twp-color6: #8c939c;
+  --twp-color7: #201b24;
+  --twp-color8: #000000;
+  --twp-font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+body {
+  font-family: var(--twp-font-family);
+  color: var(--twp-color7);
+}

@@ -1,0 +1,65 @@
+.encabezado {
+  height: 80px;
+  width: 100%;
+  padding: 1rem 20rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--twp-color7);
+}
+.barra-navegacion {
+  margin-left: auto;
+  height: 100%;
+}
+.menu-navegacion {
+  height: 100%;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.elemento-menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.enlace-menu {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--twp-color7);
+  transition: color 0.3s ease;
+}
+.enlace-menu:hover {
+  color: var(--twp-color4);
+}
+.enlace-menu-final {
+  border-radius: 1rem;
+  border: 2px solid black;
+  padding: 9px 20px;
+}
+.enlace-menu-final:hover {
+  background: var(--twp-color8);
+  color: var(--twp-color1);
+}
+.redes-sociales {
+  height: 100%;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+.elemento-red-social {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa-instagram,
+.fa-linkedin-in {
+  font-size: 15px;
+  color: var(--twp-color8);
+}
+.fa-instagram:hover,
+.fa-linkedin-in:hover {
+  color: var(--twp-color4);
+}
