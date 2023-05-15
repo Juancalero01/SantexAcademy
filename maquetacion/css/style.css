@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--twp-color7);
+  background: var(--twp-color1);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .barra-navegacion {
   margin-left: auto;
@@ -26,7 +30,7 @@
 .enlace-menu {
   font-size: 13px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--twp-color7);
   transition: color 0.3s ease;
 }
@@ -37,6 +41,7 @@
   border-radius: 1rem;
   border: 2px solid black;
   padding: 9px 20px;
+  color: var(--twp-color8);
 }
 .enlace-menu-final:hover {
   background: var(--twp-color8);
@@ -53,7 +58,119 @@
   display: flex;
   align-items: center;
 }
+.contenido-principal {
+  padding-top: 80px;
+}
 
+.seccion-introduccion {
+  background: url("/maquetacion/recursos/imagenes/articulos/TWP-home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 166vh;
+}
+
+.introduccion {
+  height: 350px;
+  background: var(--twp-color2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-introduccion {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--twp-color7);
+}
+.acciones-principales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 30px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
+.accion-principal {
+  border-radius: 1rem;
+  border: 2px solid var(--twp-color8);
+  padding: 9px 20px;
+  color: var(--twp-color8);
+  transition: color 0.3s ease;
+}
+.accion-principal:hover {
+  background: var(--twp-color8);
+  color: var(--twp-color1);
+}
+.accion-principal-final {
+  border-radius: 1rem;
+  border: 2px solid var(--twp-color5);
+  padding: 9px 20px;
+  color: var(--twp-color5);
+}
+.accion-principal-final:hover {
+  background: var(--twp-color5);
+  color: var(--twp-color1);
+}
+.impacto {
+  gap: 50px;
+  height: 400px;
+  background: var(--twp-color7);
+  color: var(--twp-color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabezera-impacto {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px;
+}
+.titulo-impacto {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+.estadisticas {
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.dato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.valor {
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+}
+.etiqueta {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--twp-color6);
+}
+
+.descripcion-impacto {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+}
+/* Fontawesome - icons style */
 .fa-instagram,
 .fa-linkedin-in {
   font-size: 15px;
@@ -62,4 +179,8 @@
 .fa-instagram:hover,
 .fa-linkedin-in:hover {
   color: var(--twp-color4);
+}
+.fa-arrow-right-long,
+.fa-plus {
+  font-size: 12px;
 }
