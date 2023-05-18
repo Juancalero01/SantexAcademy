@@ -317,7 +317,6 @@
 .seccion-empresas {
   max-width: 1200px;
 }
-
 .slider {
   width: 100%;
   height: auto;
@@ -328,7 +327,7 @@
 }
 .slide {
   display: flex;
-  animation: slide 20s linear infinite;
+  animation: slide 60s linear infinite;
 }
 .slide-imagen {
   width: 200px;
@@ -346,8 +345,57 @@
     transform: translateX(-100%);
   }
 }
-
-/* Fontawesome - icons style */
+.pie-de-pagina {
+  background: var(--twp-color7);
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.descripcion-pie-de-pagina {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--twp-color1);
+}
+.enlaces-pie-de-pagina {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.enlace-pie-de-pagina {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--twp-color3);
+}
+.enlace-pie-de-pagina:hover {
+  color: var(--twp-color1);
+}
+.enlaces-sociales-pie-de-pagina {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.enlace-social-pie-de-pagina {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--twp-color3);
+}
+.enlace-social-pie-de-pagina > .fa-linkedin-in {
+  color: var(--twp-color3);
+}
+.enlace-social-pie-de-pagina > .fa-instagram {
+  color: var(--twp-color3);
+}
+.enlace-social-pie-de-pagina:hover {
+  color: var(--twp-color1);
+}
 .fa-instagram,
 .fa-linkedin-in {
   font-size: 15px;
